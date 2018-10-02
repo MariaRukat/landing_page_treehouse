@@ -29,12 +29,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input,button{
+    border:none;
+}
 *{
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
     background-color: #fff;
 }
 
@@ -42,6 +44,51 @@ body{
     max-width: 950px;
     margin: 0 auto;
 }
+
+/* BUTTONS */
+
+.btn{
+    background: #7cc576;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn__oval{
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+/* HEADINGS */
+
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.heading__main{
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -3px;
+}
+
+
+/* TEXT */
+
+.text{
+    font-family: 'Roboto Slab', serif;
+}
+
+.text__subheading{
+    color: #cccccc;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+}
+
+/* NAVBAR */
 
 .navbar{
     padding: 24px 0;
@@ -76,6 +123,7 @@ body{
 }
 
 .navbar-menu__elem{
+    font-family: 'Montserrat', sans-serif;
     padding: 24px 16px;
 }
 
@@ -86,4 +134,25 @@ body{
     font-size: 14px;
 }
 
+/* TITLE SECTION */
+.title{
+    background-image: url("images/title-img.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align:center;
+    color: #fff;
+}
+.title__layer{
+    background: rgba(0,0,0,0.75);
+    padding: 80px 0;
+}
+
+.title__heading{
+    margin: 30px 0;    
+}
+
+.title__btn{
+        margin: 60px 0 40px 0;
+}
 
