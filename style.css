@@ -48,18 +48,39 @@ body{
 /* BUTTONS */
 
 .btn{
-    background: #7cc576;
-    color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
+    line-height: 44.21px;
+    letter-spacing: -0.37px;
 }
 
 .btn__oval{
     border-radius: 30px;
-    padding: 20px 30px;
+    padding: 8px 26px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
 }
+
+.btn__oval--green{
+    background: #7cc576;
+    color: #fff;
+}
+
+/* .btn__oval--white{
+    background: #fff;
+    color: #7cc576;
+} */
+
+.btn__arrow{
+    background: #fff;
+    color: #7cc576;
+    background: url("images/icon_arrow_right.svg") right no-repeat;
+    padding: 12px 24px 12px 0;
+
+}
+
+
 
 /* HEADINGS */
 
@@ -189,7 +210,7 @@ body{
     background-image: url("images/title-img.jpg") ;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     text-align:center;
     color: #fff;
 }
@@ -251,7 +272,6 @@ body{
     position: relative;
 }
 
-
 .culture__articles .culture__article:nth-child(1) .culture__image-box:after, 
 .culture__articles .culture__article:nth-child(2) .culture__image-box:after {
     content: "";
@@ -261,6 +281,8 @@ body{
     right: -200px;
 
 }
+
+/* MORE */
 
 .more{
     display: flex;
@@ -315,3 +337,38 @@ body{
     background: url("images/checkmark.svg") no-repeat center;
     margin-right: 16px;
 }
+/* PROJECTS */
+ 
+.projects{
+    background: url("images/section_projects_background.png") no-repeat 640px 280px;
+    background-size: 80%;
+    padding: 88px 0 88px 0;
+}
+
+.projects__text{
+    width: 425px;
+}
+
+.projects__list-elem{
+    display: flex;
+    margin: 14px 0 14px 0;
+}
+
+.projects__list-elem-icon{
+    width: 67px;
+    height: 68px;
+    border: 3px solid #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+
+}
+
+.projects__list-elem-heading{
+    text-transform: capitalize;
+    line-height: 18px;
+    margin-top: 16px;
+}
+
