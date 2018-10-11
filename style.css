@@ -451,3 +451,14 @@ body{
     text-align: center;
 }
 
+/* LOGOTYPES */
+
+.logotypes{
+    padding: 48px 0;
+}
+
+.logotypes__box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
