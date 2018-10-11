@@ -121,8 +121,20 @@ body{
     letter-spacing: -0.45px;
 }
 
+.heading__small{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.35px;
+    text-transform: none;
+}
+
 .heading__dark-grey{
     color: #222;
+}
+
+.heading__special-grey{
+    color: #555555;
 }
 
 .heading__white{
@@ -182,7 +194,6 @@ body{
 .text__green{
     color: #7cc576;
 }
-
 
 /* NAVBAR */
 
@@ -385,7 +396,7 @@ body{
     border: 3px solid #000000;
     border-radius: 50%;
     display: flex;
-    justify-;content: center;
+    justify-content: center;
     align-items: center;
     margin-right: 16px;
 
@@ -461,4 +472,35 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+/* SOCIALS*/
+
+.socials{
+    padding: 40px 0;
+}
+
+.socials__box{
+    display: flex;
+    align-items: center;
+}
+
+.socials__info{
+    width: 255px;
+    margin-right: 130px;
+}
+
+.socials__logos{
+    display: flex;
+}
+
+.socials__logo{
+    width: 41px;
+    height: 42px;
+    background: #222222;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
 }
