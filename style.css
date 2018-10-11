@@ -146,6 +146,16 @@ body{
     line-height: 24px;
 }
 
+.text__quote{
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.text__author{
+    font-size: 18px;
+    line-height: 36px;
+}
+
 .text__grey{
     color: #777;
 }
@@ -156,6 +166,10 @@ body{
 
 .text__light-grey{
     color: #cccccc;
+}
+
+.text__green{
+    color: #7cc576;
 }
 
 
@@ -360,7 +374,7 @@ body{
     border: 3px solid #000000;
     border-radius: 50%;
     display: flex;
-    justify-content: center;
+    justify-;content: center;
     align-items: center;
     margin-right: 16px;
 
@@ -370,5 +384,50 @@ body{
     text-transform: capitalize;
     line-height: 18px;
     margin-top: 16px;
+}
+
+/* CLIENTS */
+.clients{
+    padding: 88px 0 88px 0;
+}
+
+.clients__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients__text-box{
+    width: 643px;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 24px;
+    position: relative;
+}
+
+.clients__box:nth-child(3) .clients__text-box:after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: -40px;
+    border: 20px solid transparent;
+    border-right-color:#f9f9f9;
+}
+
+.clients__box:nth-child(4) .clients__text-box:after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    right: -40px;
+    border: 20px solid transparent;
+    border-left-color:#f9f9f9;
+}
+
+.clients__face-box{
+    width: 221px;
+    height: 221px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    background-color: #f9f9f9;
 }
 
