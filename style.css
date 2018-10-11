@@ -77,10 +77,21 @@ body{
     color: #7cc576;
     background: url("images/icon_arrow_right.svg") right no-repeat;
     padding: 12px 24px 12px 0;
-
 }
 
+.btn__rectangle{
+    border-radius: 10px;
+    padding: 4px 26px;
+    font-size: 18px;
+    line-height: 41px;
+    letter-spacing: -0.45px;
+}
 
+.btn__rectangle--green{
+    background: #7cc576;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
 
 /* HEADINGS */
 
@@ -387,6 +398,7 @@ body{
 }
 
 /* CLIENTS */
+
 .clients{
     padding: 88px 0 88px 0;
 }
@@ -429,5 +441,13 @@ body{
     border: 3px solid #ffffff;
     border-radius: 50%;
     background-color: #f9f9f9;
+}
+
+/* CONTACT */
+
+.contact{
+    background: #7cc576;
+    padding:40px 0 60px 0;
+    text-align: center;
 }
 
