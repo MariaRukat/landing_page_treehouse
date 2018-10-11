@@ -129,6 +129,13 @@ body{
     text-transform: none;
 }
 
+.heading__nav{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+    text-decoration: none;
+}
+
 .heading__dark-grey{
     color: #222;
 }
@@ -141,7 +148,7 @@ body{
     color: #ffffff;
 }
 
-.heading__special{
+.heading__green{
     color: #7cc576;
 }
 /* TEXT */
@@ -198,47 +205,29 @@ body{
 /* NAVBAR */
 
 .navbar{
-    padding: 24px 0;
+    padding: 36px 0;
 }
 
-.navbar-company{
-    display: inline-block;
-    padding-top: 16px;
-    text-decoration: none;
+.navbar__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navbar-company__image{
-    margin-right: 4px;
-}
-
-.navbar-company__name{
+.navbar__company-name{
     float: right;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #555;
     font-size: 18px;
     line-height: 21px;
     padding-top: 6px;
+    margin-left: 8px;
 }
 
-.navbar-menu{
-    list-style: none;
-    float: right;
-    display: flex;
-    justify-content: flex-end;
+.navbar__menu{
+    display: flex; 
 }
 
-.navbar-menu__elem{
-    font-family: 'Montserrat', sans-serif;
-    padding: 24px 16px;
-}
-
-.navbar-menu__link {
-    color: #555;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 14px;
+.navbar__menu-elem {
+    padding: 0 16px;
 }
 
 /* TITLE SECTION */
